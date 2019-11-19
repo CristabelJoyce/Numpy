@@ -1,0 +1,5 @@
+import numpy as np
+A=np.arange(1,101).reshape(10,10)
+A=A**2
+D=A[A%3==0]
+print(D)
